@@ -23,7 +23,6 @@ class Login {
   }
 
   async loginRequest() {
-    console.log('oi');
     try {
       const body = {
         username: this.user.value,
